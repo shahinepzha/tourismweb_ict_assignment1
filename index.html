@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kerala Tourism</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" href="./images/Kerala_God's_Own_Country_Logo.svg" type="image/gif" sizes="16x16">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Oswald:wght@700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+</head>
+
+<body>
+  <!-- navbar -->
+  <section id="title">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-custom">
+      <a class="navbar-brand" href="#">
+        <img src="./images/Kerala_God's_Own_Country_Logo.png" width="50" height="50" class="d-inline-block align-top"
+          alt="">
+      </a>
+      <h4 class="text1"><b>KERALA TOURISM</b></h4>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./properties/about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./properties/districts.html">Districts</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Explore
+            </a>
+            <div class="dropdown-menu bg-custom" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="./properties/tradition.html">Traditions</a>
+              <a class="dropdown-item" href="./properties/map.html">Map of Kerala</a>
+            </div>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="modal" data-target="#loginModal">Sign In</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./properties/signup.html">Sign up</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control ml-sm-2" type="search" placeholder="Search">
+          <button class="btn btn-outline-light my-2 my-sm-0 margin-btn" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+  </section>
+  <!-- slider -->
+  <section class="testimonials">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="./images/ck1.jpg" alt="First slide">
+
+          <div class="container">
+            <div class="carousel-caption text-left">
+              <h1>KERALA</h1>
+              <p>The God's Own Country</p>
+              <p><a class="btn btn-lg btn-success" href="./properties/signup.html">Sign up today</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="./images/ck2.jpg" alt="second slide">
+
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>The Land of Beauty and Wonders</h1>
+              <p>If you love to learn about Culture, Heritage and hundreds of years of history, The God’s Own Country
+                has them all.</p>
+              <p><a class="btn btn-lg btn-success" href="./properties/about.html">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="./images/artforms-1920x650.jpg" alt="third slide">
+
+          <div class="container">
+            <div class="carousel-caption text-right">
+              <h1>Traditions are always a part of the people here</h1>
+              <p>Most of what existed a hundred years ago, still exists now. It’s the beauty of the people live here.
+                The modern cities sport a traditional backbone which is quite rare elsewhere.</p>
+              <p><a class="btn btn-lg btn-success" href="./properties/tradition.html">Browse gallery</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+
+    <div class="container marketing py-4">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row text-center">
+        <div class="col">
+          <img class="bd-placeholder-img rounded-circle" src="./images/ck6.jpg" width="140" height="140">
+
+          <h2>Districts</h2>
+          <p>The state of Kerala is divided into 14 revenue districts.Each District has unique Geographics and
+            Traditions.</p>
+          <p><a class="btn btn-success" href="./properties/districts.html">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col">
+          <img class="bd-placeholder-img rounded-circle" src="./images/wp6905437.jpg" width="140" height="140">
+
+
+          <h2>Tradition</h2>
+          <p>For more than a thousand years, a great many art forms and festivals have been raised and nurtured in
+            Kerala. </p>
+          <p><a class="btn btn-success" href="./properties/tradition.html">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+
+      </div><!-- /.row -->
+
+  </section>
+  <!-- <div class="blink-bg"></div> -->
+  <div class="ddd">
+    <section class="jumbotron text-center">
+      <div class="container">
+        <h1>Experience Kerala</h1>
+        <p class="lead text-muted"></p>
+        <p>
+          <a href="./properties/map.html" class="btn btn-success my-2">Map of Kerala</a>
+          <a href="./properties/districts.html" class="btn btn-secondary my-2">Districts</a>
+        </p>
+      </div>
+    </section>
+
+    <div class="album py-5 bg-transparent">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card text-white mb-4 bg-success shadow-sm">
+              <img class="bd-placeholder-img card-img-top" src="./images/gr1.jpg" width="100%" height="225" role="img"
+                aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <div class="card-body">
+                <p class="card-text">Kayaking in Kerala is a watersport that involves navigating a small boat, known as
+                  a kayak. It is different from canoeing in terms of the sitting posture of the paddler and the number
+                  of blades on the paddle (a canoe's paddle has one blade, whereas a kayak's paddle has two).</p>
+                <div class="d-flex justify-content-between align-items-center">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card text-white mb-4 bg-success shadow-sm">
+              <img class="bd-placeholder-img card-img-top" src="./images/yoga.jpg" width="100%" height="225" role="img"
+                aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <div class="card-body">
+                <p class="card-text">Yoga is a holistic practice, known to alleviate all worldly angst. It is often the
+                  best way to attain a sense of tranquility. It is widely accepted that the practice of yoga originated
+                  in India. The word "yoga" itself takes its origin from Sanskrit, the Vedic language. </p>
+                <div class="d-flex justify-content-between align-items-center">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card text-white mb-4 bg-success shadow-sm">
+              <img class="bd-placeholder-img card-img-top" src="./images/3030623.jpg" width="100%" height="225"
+                role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <div class="card-body">
+                <p class="card-text">Kerala is probably the only state in India where Ayurveda is used as a mainstream
+                  medicine. Here one can see many Ayurvedic medical colleges and hospitals across the state.Kerala
+                  Ayurveda is famous for its 5 prolonged treatment, named as Panchakarma.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  <section class="sign in">
+    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header border-bottom-0">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="form-title text-center">
+              <h4>Login</h4>
+            </div>
+            <div class="d-flex flex-column text-center">
+              <form action="./index.html" onsubmit="return dovalidate();">
+                <div class="form-group">
+                  <input type="email" class="form-control" id="email1" placeholder="Your email address...">
+                </div>
+                <div class="form-group">
+                  <input type="password" class="form-control" id="pwd3" placeholder="Your password...">
+                </div>
+                <button type="submit" class="btn btn-success btn-block btn-round">Login</button>
+              </form>
+
+              <div class="text-center text-muted delimiter">or use a social network</div>
+              <div class="d-flex justify-content-center social-buttons">
+                <button type="button" class="btn btn-secondary rounded-circle" data-toggle="tooltip"
+                  data-placement="top" title="Twitter" id="sbtn">
+                  <i class="fab fa-twitter"></i>
+                </button>
+                <button type="button" class="btn btn-secondary rounded-circle" data-toggle="tooltip"
+                  data-placement="top" title="Facebook" id="sbtn">
+                  <i class="fab fa-facebook"></i>
+                </button>
+                <button type="button" class="btn btn-secondary rounded-circle" data-toggle="tooltip"
+                  data-placement="top" title="Linkedin" id="sbtn">
+                  <i class="fab fa-linkedin"></i>
+                </button>
+              </div>
+              <div><label for="error" id="error1"></label></div>
+            </div>
+          </div>
+          <div class="modal-footer d-flex justify-content-center">
+            <div class="signup-section">Not a member yet? <a href="./signup.html" class="text-success"> Sign Up</a>.
+            </div>
+          </div>
+        </div>
+      </div>
+
+  </section>
+  <footer class="bg-custom text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-3 pb-0">
+      <!-- Section: Social media -->
+      <section class="mb-2">
+        <!-- Facebook -->
+        <a class="btn btn-outline-light btn-floating m-1 rounded-circle" href="#!" role="button"><i
+            class="fab fa-facebook-f"></i></a>
+
+        <!-- Twitter -->
+        <a class="btn btn-outline-light btn-floating m-1 rounded-circle" href="#!" role="button"><i
+            class="fab fa-twitter"></i></a>
+
+        <!-- Google -->
+        <a class="btn btn-outline-light btn-floating m-1 rounded-circle" href="#!" role="button"><i
+            class="fab fa-google"></i></a>
+
+        <!-- Instagram -->
+        <a class="btn btn-outline-light btn-floating m-1 rounded-circle" href="#!" role="button"><i
+            class="fab fa-instagram"></i></a>
+
+        <!-- Linkedin -->
+        <a class="btn btn-outline-light btn-floating m-1 rounded-circle" href="#!" role="button"><i
+            class="fab fa-linkedin-in"></i></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" id="ftr1" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2021 Copyright:
+      <a class="text-white" href="#">KeralaTourism.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <script src="./script.js"></script>
+  <!-- bootstrap script -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
