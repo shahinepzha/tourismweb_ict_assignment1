@@ -205,6 +205,12 @@ a:active {
   font-size: smaller;
 }
 /* aboutus */
+
+.abtimg{
+  width: 100%;
+  height: auto;
+}
+
 .aboutus-section {
   padding: 90px 0;
 }
