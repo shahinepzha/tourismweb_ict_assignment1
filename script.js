@@ -13,6 +13,7 @@ function validate(){
 
     if((regexp.test(email.value))&&(pwdreg.test(pwd.value))&&(phonereg.test(phone.value))&&(pwd.value==pwd1.value))
     {
+        alert("Signup Success");
         return true;
      }
      else if(regexp.test(email.value) == false){
@@ -73,6 +74,7 @@ function dovalidate(){
 
     if((regexp.test(email1.value))&&(pwdreg.test(pwd3.value)))
     {
+        alert("Login Success");
         return true;
      }
      else if(regexp.test(email1.value) == false){
